@@ -1,0 +1,20 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(4, 80px);
+
+  .piece {
+    border: 1px solid black;
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: -1px;
+    margin-left: -1px;
+
+    &[data-index=''] {
+      background-color: dimgray;
+    }
+  }
+}
