@@ -1,14 +1,22 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .board {
   display: grid;
   grid-template-columns: repeat(4, 80px);
   grid-template-rows: repeat(4, 80px);
 
   .piece {
+    font-family: 'Montserrat', sans-serif;
     border: 1px solid black;
     background-color: cornsilk;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    user-select: none;
 
     margin-bottom: -1px;
     margin-left: -1px;
