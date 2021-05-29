@@ -1,6 +1,6 @@
 ## 15 puzzle
 
-Generated a 15 puzzle which can be solved.
+Generates a 15 puzzle which can be solved.
 
 ### Generated puzzle
 
