@@ -24,7 +24,7 @@
 
     // console.log(blocks.map((b) => b.innerText));
 
-    for (let i = 1; i < blocks.length; i++) {
+    for (let i = 0; i < blocks.length; i++) {
       const ni = +blocks[i].innerText;
 
       // console.log('ni', ni);
