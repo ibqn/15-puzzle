@@ -71,7 +71,13 @@
     for (let x = -1; x <= 1; x++) {
       for (let y = -1; y <= 1; y++) {
         const idx = i + x + 4 * (y + j);
-        if (i + x < 4 && blocks[idx]?.dataset?.index === '' && !x ^ !y) {
+        // console.log('i', i, 'j', j, 'x', x, 'y', y);
+        if (
+          i + x < 4 &&
+          i + x >= 0 &&
+          blocks[idx]?.dataset?.index === '' &&
+          !x ^ !y
+        ) {
           // console.log("match", idx);
           swap(block, blocks[idx]);
           return;
