@@ -44,7 +44,7 @@
       }
     }
 
-    console.log('n', n, n % 2 === 0);
+    // console.log('n', n, n % 2 === 0);
     return n % 2 === 0;
   };
 
